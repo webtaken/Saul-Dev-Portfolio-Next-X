@@ -7,18 +7,19 @@ import {
 } from "next";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
-import { Service } from "../types";
 
 const About: NextPage = () => {
-  // console.log(services);
-
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
       <h6 className="my-3 text-base font-medium">
-        I am currently pursuing B.Tech Degree(Final Year) in Computer Science
-        Engineering from Academy of Technology. I have 3+ years of experience in
-        Web Development and I have a Youtube Channel where I teach Full Stack
-        Web Development
+        Welcome to my web portfolio!. I'm a 5th year computer science student
+        with 2+ years of web development experience. I've worked on side
+        projects and gained 1+ year of industry experience. My focus is on
+        creating tech-products to enhance people's life and gain money with
+        that. I'm constantly learning and staying up-to-date with the latest
+        trends to deliver high-quality software solutions. Thank you for
+        visiting, and I'm excited about exploring new opportunities in web
+        development.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "

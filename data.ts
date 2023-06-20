@@ -1,6 +1,6 @@
 import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
-import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
+import { AiOutlineApi, AiFillProject } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 import { IProject, Service, Skill } from "./types";
 
@@ -11,36 +11,30 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "I can develop web applications using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> specializing in <b>NextJS</b>",
   },
   {
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "handle database, server, api using <b>Go </b> & other languages like <b>python</b> and <b>Javascript (with Typescript)</b>",
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+      "I can develop robust REST API using <b>django-rest-api</b>, <b>Go Fiber</b> & <b>Express</b>",
   },
   {
     Icon: MdDeveloperMode,
     title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+    about: "A problems solver in <b>Leet Code</b> ",
   },
   {
-    Icon: AiOutlineAntDesign,
-    title: "UI/UX designer",
+    Icon: AiFillProject,
+    title: "Indie Creator",
     about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
-  },
-  {
-    Icon: RiComputerLine,
-    title: "Whatever",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+      "I like to create products on internet, helping people in the process and gaining experience and money.",
   },
 ];
 

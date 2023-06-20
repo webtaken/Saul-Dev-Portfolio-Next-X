@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
@@ -16,14 +16,13 @@ const Sidebar = () => {
       <Image
         src="https://sumitdey.netlify.app/static/media/max.9d3a6d3e.jpg"
         alt="avatar"
-        className=" mx-auto border rounded-full "
-        height="128px"
-        width="128px"
-        layout="intrinsic"
+        className="mx-auto border rounded-full"
+        height={128}
+        width={128}
         quality="100"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
-        <span className="text-green ">Sumit</span> Dey
+        <span className="text-blue-400 ">Saul</span> Rojas
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
         Web Developer
@@ -39,14 +38,20 @@ const Sidebar = () => {
       </a>
 
       {/* Socials */}
-      <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
-        <a href="https://www.youtube.com/channel/UClW8d1f5m0QAE_Ig024EP6A">
-          <AiFillYoutube className="w-8 h-8 cursor-pointer" />
+      <div className="flex justify-around w-9/12 mx-auto my-5 text-blue-400 md:w-full ">
+        <a
+          href="https://twitter.com/node_srojas1"
+          target="_blank"
+        >
+          <AiFillTwitterCircle className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.linkedin.com/in/sumit-dey-4a04431a9/" >
+        <a
+          href="https://www.linkedin.com/in/saul-rojas-6885b1188/"
+          target="_blank"
+        >
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.instagram.com/_sumax__/">
+        <a href="https://github.com/webtaken" target="_blank">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />{" "}
         </a>
       </div>
@@ -57,17 +62,17 @@ const Sidebar = () => {
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center">
-          <GoLocation className="mr-2" /> <span>Kolkata,India </span>
+          <GoLocation className="mr-2" /> <span>Arequipa, Peru </span>
         </div>
-        <p className="my-2 "> code.sumax@gmail.com </p>
-        <p className="my-2"> 8514961665 / 8640960375 </p>
+        <p className="my-2 "> luckly083@gmail.com </p>
+        <p className="my-2"> +51 969601133 </p>
       </div>
 
       {/* Email Button */}
 
       <button
         className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
-        onClick={() => window.open("mailto:code.sumax@gmail.com")}
+        onClick={() => window.open("mailto:luckly083@gmail.com")}
       >
         Email me
       </button>
